@@ -48,10 +48,6 @@ class App extends Component {
     })
   }
   render() {
-    console.log(this.state.fontSize);
-    console.log(this.state.fontColor);
-    console.log(this.state.fontFamily);
-    console.log(this.state.allowEdit);
     return (
       <div>
         <div className="headerBar">
